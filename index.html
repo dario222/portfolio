@@ -1,155 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Portafolio de Dario</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Dario</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <header>
+        <nav>
+            <div class="logo">Dario</div>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
+    <section id="about">
+        <div class="profile">
+            <img src="images/perfil.jpg" class="perfil" alt="Foto de Dario">
+            <h1>Dario Idiart</h1>
+            <p>
+                Desarrollador Web en formación.
+                Me apasiona crear sitios modernos, funcionales y atractivos.
+                Actualmente estoy aprendiendo HTML, CSS, JavaScript y Git.
+            </p>
+        </div>
+    </section>
 
-<nav>
+    <section id="projects" class="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/calculadora.jpg" alt="Calculadora">
+                <h3>Calculadora Web</h3>
+                <p>Calculadora simple hecha con HTML, CSS y JavaScript.</p>
+                <a href="proyecto/calculadora.html" target="_blank">Ver proyecto</a>
+            </div>
+            <div class="project-card">
+                <img src="images/tareas.jpg" alt="Lista de tareas">
+                <h3>Lista de tareas</h3>
+                <p>Aplicación para organizar tareas con JavaScript.</p>
+                <a href="proyecto/proyecto1.html" target="_blank">Ver proyecto</a>
+            </div>
+            <div class="project-card">
+                <img src="images/portfolio.jpg" alt="Portfolio web">
+                <h3>Portfolio Web</h3>
+                <p>Mi portfolio personal publicado en GitHub Pages.</p>
+                <a href="proyecto/proyecto2.html" target="_blank">Ver sitio</a>
+            </div>
+        </div>
+    </section>
 
-<div class="logo">Dario</div>
+    <section id="skills">
+        <h2>Tecnologías</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+        </div>
+    </section>
 
-<ul>
-<li><a href="#about">Sobre mí</a></li>
-<li><a href="#skills">Tecnologías</a></li>
-<li><a href="#projects">Proyectos</a></li>
-<li><a href="#contact">Contacto</a></li>
-</ul>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>
+            Puedes escribirme a
+            <a href="mailto:dario_id9@outlook.com">dario_id9@outlook.com</a>
+        </p>
+        <p>
+            También puedes ver mis proyectos en
+            <a href="https://github.com/dario222" target="_blank">GitHub</a>
+        </p>
+    </section>
 
-</nav>
-
-</header>
-
-<section id="about">
-
-<div class="profile">
-
-<img src="images/perfil.jpg" class="perfil" alt="Foto de Dario">
-
-<h1>Dario Idiart</h1>
-
-<p>
-Desarrollador Web en formación.
-Me apasiona crear sitios modernos, funcionales y atractivos.
-Actualmente estoy aprendiendo HTML, CSS, JavaScript y Git.
-</p>
-
-</div>
-
-</section>
-
-<section id="projects" class="projects">
-
-<h2>Mis Proyectos</h2>
-
-<div class="project-container">
-
-<div class="project-card">
-
-<img src="images/proyectos/calculadora.jpg" alt="Calculadora">
-
-<h3>Calculadora Web</h3>
-
-<p>
-Calculadora simple hecha con HTML, CSS y JavaScript.
-</p>
-
-<a href="https://github.com/dario222/calculadora" target="_blank">
-Ver proyecto
-</a>
-
-</div>
-
-<div class="project-card">
-
-<img src="images/proyectos/tareas.jpg" alt="Lista de tareas">
-
-<h3>Lista de tareas</h3>
-
-<p>
-Aplicación para organizar tareas con JavaScript.
-</p>
-
-<a href="https://github.com/dario222/todo-app" target="_blank">
-Ver proyecto
-</a>
-
-</div>
-
-<div class="project-card">
-
-<img src="images/proyectos/portfolio.jpg" alt="Portfolio web">
-
-<h3>Portfolio Web</h3>
-
-<p>
-Mi portfolio personal publicado en GitHub Pages.
-</p>
-
-<a href="https://dario222.github.io/portafolio/" target="_blank">
-Ver sitio
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="skills">
-
-<h2>Tecnologías</h2>
-
-<div class="skills-container">
-
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">Git</div>
-<div class="skill">GitHub</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contacto</h2>
-
-<p>
-Puedes escribirme a
-<a href="mailto:dario_id9@outlook.com">
-dario_id9@outlook.com
-</a>
-</p>
-
-<p>
-También puedes ver mis proyectos en
-<a href="https://github.com/dario222" target="_blank">
-GitHub
-</a>
-</p>
-
-</section>
-
-<footer>
-
-<p>© 2026 Dario Idiart | Portfolio Web</p>
-
-</footer>
-
+    <footer>
+        <p>© 2026 Dario Idiart | Portfolio Web</p>
+    </footer>
 </body>
 </html>
